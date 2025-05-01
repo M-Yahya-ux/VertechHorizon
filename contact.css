@@ -1,0 +1,77 @@
+.contact-section {
+    background: #111;
+    color: #fff;
+    padding-top: 40px;
+    background-image: url('./images/Untitled\ design\ -\ 2025-05-01T014306.122.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .contact-description {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .contact-btn {
+    background: rgba(0, 234, 255, 0.1);
+    border: 1px solid rgba(0, 234, 255, 0.3);
+    color: #00eaff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .contact-btn:hover {
+    background: rgba(0, 234, 255, 0.3);
+    color: #fff;
+  }
+  
+  .social-media-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon {
+    font-size: 3rem; /* Increased size for better visibility */
+    color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    color: #00eaff;
+  }
+  
+  /* Ensure icons are close together */
+  .social-icon {
+    margin: 0 15px; /* Reduced margin between icons */
+  }
+  
+  /* Centering the content */
+  .contact-section .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-section .col-md-8 {
+    text-align: center;
+  }
+  
+  

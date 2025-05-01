@@ -1,0 +1,124 @@
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .footer-logo img {
+    max-width: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-description {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .footer h5 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #00eaff;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 10px 0;
+  }
+  
+  .footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #00eaff;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    color: #00eaff;
+  }
+  
+  .newsletter-section {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .newsletter-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #00eaff;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .newsletter-btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #00eaff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .newsletter-btn:hover {
+    background-color: #0088cc;
+  }
+  
+  .footer-bottom {
+    background: #222;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom p {
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+  
+  .scroll-to-top {
+    color: #00eaff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .scroll-to-top:hover {
+    color: #fff;
+  }
+  
+  .scroll-to-top i {
+    margin-right: 10px;
+  }
+  

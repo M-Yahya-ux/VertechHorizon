@@ -1,0 +1,37 @@
+.tech-stack-section {
+    background: #111;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .tech-stack-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+  }
+  
+  .tech-stack-row {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .tech-icon {
+    font-size: 4rem; /* Increased size for better visibility */
+    margin: 0 30px;  /* Adjusted spacing for larger icons */
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-icon:hover {
+    transform: scale(1.1); /* Slight hover effect */
+  }
+  
+  .scroll-text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .fas.fa-hand-point-down {
+    color: #00eaff; /* Keeps hand icon color blue */
+  }
+  
